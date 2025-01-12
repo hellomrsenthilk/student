@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+    font-family: system-ui;
+}
+nav {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: green;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #eee;
+}
+
+a.active {
+     text-decoration: underline; 
+}
+
+.rounded-div {
+    border-radius: 15px; /* Adjust the value as needed */
+    padding: 20px;
+    background-color: lightblue;
+  }
+  
